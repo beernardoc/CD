@@ -3,6 +3,7 @@ Bernardo Pinto - 105926
 
 João Santos - 110555
 
+[Here](Guiao2.pdf) is a guide to getting started with the job.
 
 # CHORD (DHT)
 

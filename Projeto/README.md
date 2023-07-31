@@ -5,10 +5,9 @@ Bernardo Pinto - 105926
 
 João Santos - 110555
 
-[Aqui](GuiaoProjeto.pdf) está o guião de instruções do projeto final da cadeira.
+[Here](GuiaoProjeto.pdf) is a guide to getting started with the job.
 
-[Aqui](Relatorio.pdf) está um breve relatório final do trabalho desenvolvido.
-
+[Here](Relatorio.pdf) is a brief final report of the work carried out.
 
 
 Here we have a sample code that loads one mp3 file and splits it 
