@@ -5,23 +5,7 @@ Bernardo Pinto - 105926
 
 João Santos - 110555
 
-A firma Advanced Sound Systems (ASS) encontra-se a desenvolver uma aplicação de karaoke para
-músicos. Esta aplicação distingue-se por não só remover a voz das músicas, mas também remover
-instrumentos individuais, permitindo a um músico substituir a performance do músico original pela
-sua. Este novo serviço será disponibilizado online através de um portal web em que o músico pode
-fazer upload de um ficheiro de música, analisar os instrumentos que compõem a música, selecionar
-vários instrumentos e finalmente receber um ficheiro novo em que a música contém apenas esses
-instrumentos.
-A tarefa de separar uma música em várias pistas por instrumento é intensiva do ponto de vista
-de processamento pelo que a ASS contratou os alunos de Computação Distribuída para desenvolver
-um serviço online capaz de atender às necessidades da empresa com uma qualidade de experiência
-elevada para o utilizador final (identificação rápida dos instrumentos e construção do novo ficheiro
-sem o(s) instrumento(s) seleccionados).
-Para esta tarefa deverão desenvolver todo o código necessário para a criação de um serviço Web
-que possa servir em paralelo múltiplos clientes de forma rápida e eficiente recorrendo a computação
-paralela (aqui conseguido através de paralelização em múltiplos processos/workers independentes
-que podem estar no mesmo computador ou não).
-Para esta tarefa é fornecido este guião e um conjunto de pistas de música disponíveis em [4].
+[Guião](GuiaoProjeto.pdf)
 
 
 
