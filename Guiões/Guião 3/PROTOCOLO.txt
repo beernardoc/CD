@@ -1,0 +1,16 @@
+Este guião foi desenvolvido com apoio de um protocolo, que realiza a comunicação do sistema como um todo.
+
+De inicio foi desenvolvida uma classe Serializer que consiste em um Enum que define os três formatos aceitos. JSON = 0, XML = 1 e Pickle = 2
+
+Em seguida foi implementada a classe principal Message que será herdada pelas demais classes que representam os tipos de messagens aceitas, entre elas, RegisterMessage, SubMessage,PubMessage, AskList, ListMsg e CancelMsg.
+Vale ressaltar que cada uma dessas classes implementa os métodos que vão ser responsáveis por criar as mensagens nos formatos aceitos, respeitando suas particularidades
+
+Por fim, foi desenvolvida a classe Protocol, que implementa os seguintes métodos:
+- Register: recebe um code como parametro e retorna uma mensagem do tipo RegisterMessage
+- subscribe: recebe um topico como parametro e retorna uma mensagem do tipo SubMessage
+- publish: recebe um topico e um valor como parametro e retorna uma PubMessage
+- ask_list: retorna uma mensagem do tipo AskList
+- list: recebe topicos como parametro e retorna uma mensagem do tipo ListMsg
+- cancel: recebe um topico e retorna uma mensagem do tipo CancelMsg
+- send_msg: recebe um socket, uma mensagem e um codigo, e a depender do código passado será enviada uma mensagem em um formato definido
+- recv_msg: recebe um socket como parametro e a partir disso processa as mensagens recebidas a depender do formato que foi enviada
