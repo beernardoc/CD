@@ -1,6 +1,6 @@
 
-## Bernardo Pinto - 105926
-## João Santos - 110555
+Bernardo Pinto - 105926
+João Santos - 110555
 
 
 # CHORD (DHT)
